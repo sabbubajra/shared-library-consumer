@@ -16,6 +16,7 @@ pipeline {
             steps {
                 // We are calling the file 'finTechAudit.groovy' as a function!
                 script {
+                    helloWorld()
                     finTechAudit("Payment-Gateway-API", "HIGH")
                 }
             }
